@@ -2,7 +2,7 @@
 	require_once "https://github.com/vatsworld/loginsystem/blob/master/config.php";
 
 	if (isset($_SESSION['access_token'])) {
-		header('Location:https://github.com/vatsworld/loginsystem/blob/master/login.php');
+		header('Location:https://github.com/vatsworld/loginsystem/blob/master/index.php');
 		session_destroy();
 	exit();
 	}
